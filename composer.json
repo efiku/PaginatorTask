@@ -1,0 +1,19 @@
+{
+    "name": "efiku/paginatortask",
+    "description": "Solution of Paginator task",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Pazdur",
+            "email": "pazdurk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev" : {
+        "phpunit/phpunit" : "^5.5"
+      },
+    "autoload": {
+        "psr-4": {"Paginator\\": "src/"}
+    }
+}
